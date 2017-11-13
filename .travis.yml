@@ -28,6 +28,7 @@ cache:
 
 install:
     - pip install -U platformio cpp-coveralls
+    - pip install -r src/sktool/requirements.txt
 
 script:
     # This builds all the target
